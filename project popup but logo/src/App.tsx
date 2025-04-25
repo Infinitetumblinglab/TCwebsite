@@ -1,3 +1,4 @@
+import { Navigate } from 'react-router-dom';
 import React, { useEffect, useState, useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import { Navigation, Baby, FileText, Heart, Brain, Camera, Menu, X, Sparkles, Shield, Users, Zap } from 'lucide-react';
@@ -388,6 +389,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainContent />} />
         <Route path="/products" element={<ProductPage />} />
+       <Route path="/product" element={<Navigate to="/products" />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
