@@ -130,19 +130,19 @@ function MainContent() {
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-teal-500 bg-clip-text text-transparent">
-                Bringing medical science to life with AI
+                We Build AI Tools For Life’s Next Frontier.
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Experience the future of family healthcare with AI-powered insights that make health management simple, 
-              accessible, and personalized for every family member.
+              Not just building AI products — we’re rewriting the HAPPYNESS.
+              Welcome Aboard the Future of Life.
             </p>
             <div className="flex justify-center gap-4">
               <button 
                 onClick={() => navigate('/products')}
                 className="bg-gradient-to-r from-teal-500 to-purple-500 text-white px-8 py-4 rounded-full hover:shadow-lg transition duration-300"
               >
-                Discover More
+                Aboard
               </button>
             </div>
           </div>
@@ -162,9 +162,9 @@ function MainContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent">
-              AI-Powered Health Solutions
+              Everyday problems, solved by extraordinary AI.
             </h2>
-            <p className="mt-4 text-gray-600">Revolutionary health management tools powered by advanced AI technology.</p>
+            <p className="mt-4 text-gray-600">We build smart, human-friendly tools for health, parenting, and beyond.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 bg-white/50 backdrop-blur-sm rounded-xl hover:shadow-lg transition duration-300 relative group">
