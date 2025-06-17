@@ -142,7 +142,7 @@ function MainContent() {
                 onClick={() => navigate('/products')}
                 className="bg-gradient-to-r from-teal-500 to-purple-500 text-white px-8 py-4 rounded-full hover:shadow-lg transition duration-300"
               >
-                Aboard
+                Onboard
               </button>
             </div>
           </div>
